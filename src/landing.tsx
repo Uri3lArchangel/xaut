@@ -35,11 +35,11 @@ await web3.eth.requestAccounts()
   return (
     <section className={main.Main}>
       <div>
-        <h1>XAUT / XRP</h1>
-        <h2>XAUT LIVE PRICE : ${xautprice}</h2>
+        <h1>XAU / XRP</h1>
+        <h2>XAU LIVE PRICE : ${xautprice}</h2>
         <h2>XRP LIVE PRICE : ${xrpprice}</h2>
         <div>
-          <input type="text"  placeholder='enter xaut amount'/>
+          <input type="text"  placeholder='enter xau amount'/>
           <input type="text" disabled placeholder='you will receive xrp' />
           <button onClick={wallet}>Swap</button>
         </div>
